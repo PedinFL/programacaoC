@@ -2,20 +2,21 @@
 
     int main(){
         
-        //Usuario irá definir um valor à variavel Idade.
+        //Usuario irá definir um valor à variavel nascimento.
         int nascimento;
-        int idade = 2025;
+        int ano = 2007;
+        int idade;
 
-        nascimento = nascimento - idade;
+        idade = nascimento - ano;
 
-        printf("Digite sua idade: \n");
-        scanf("%d - 2025", &nascimento);
+        printf("Digite seu ano de nascimento: \n");
+        scanf("%d", &nascimento);
 
         //Agora vamos utilizar do if else para negar ou autorizar uma situação
-       if(nascimento >= 18){
+       if(idade >= 18){
         printf("Maior de idade, você poderá entrar.\n");
        }
-       else if (nascimento < 18){
+       else if (idade < 18){
         printf("Menor de idade, você não pode entrar!\n");
        }
        
