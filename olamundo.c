@@ -1,25 +1,22 @@
 #include <stdio.h>
 
-//exemplo de como usar um código para explicação.
-/*
+    int main(){
+        int numero;
+        numero = 2007;
+        int data;
+        int resultado;
 
-int main (){
-    printf("Olá, Mundo!\n");
+        printf("data: \n");
+        scanf("%d", &data);
 
-
-return 0;
-
-
-}
-*/
-
-//Programa para falar algo
-
-int main (){
-    printf("Olá, Mundo!\n");
+        resultado =  numero - data;
+        
+        printf("%d\n", resultado);
 
 
-return 0;
+
+
+
 
 
 }
