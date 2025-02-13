@@ -1,4 +1,7 @@
-#include <stdio.h>
+/*#include <stdio.h>
+
+
+
 
     int main(){
         
@@ -24,4 +27,29 @@
        
 
     return 0;
-    }s
+    }*/
+ #include <stdio.h>
+
+    int main(){
+
+        float nota;
+        
+        printf("Qual foi sua nota? \n");
+        scanf("%f", &nota);
+
+        if (nota >= 6.5 && > 8.0){ 
+            printf("Você poderá refazer a prova.\n");
+        }
+        else if (nota <= 8.1)
+        {
+            printf("Parabéns, você está aprovado!");
+        }
+        
+    
+
+
+
+        return 1;
+
+
+    }
