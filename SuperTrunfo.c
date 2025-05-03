@@ -31,6 +31,7 @@ int main() {
         char cidade[1];
         float pib;
         float populacao;
+        
         float area;
         int pontos;
 
