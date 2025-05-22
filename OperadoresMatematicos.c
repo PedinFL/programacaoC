@@ -66,7 +66,7 @@ int main(){
      Pos Incremento (a--)
 
      */
-
+/*
     int numero1 = 1, resultado;
 
     printf("Antes incremento: %d\n", numero1);
@@ -92,6 +92,37 @@ printf("Apos Pós-incremento - Numero 1: %d - Resultado %d\n", numero1, resultad
 
 resultado = numero1++;
     printf("Apos Pós-incremento - Numero 1: %d - Resultado %d\n", numero1, resultado);
+
+
+*/
+
+//Modificador de dados - Unsigned e unsigned int
+/*
+int signedNumber = 3000000000; // Este valor excede o limite de um int normal
+unsigned int unsignedNumber = 3000000000;
+
+printf("Número com sinal: %d\n", signedNumber);
+printf("Número sem sinal: %u\n", unsignedNumber);
+
+return 0;
+*/
+//Modificador de dados - Long int
+
+    int regularNumber = 2147483647; // Valor máximo de int
+    long int bigNumber = 2147483647;
+ 
+    printf("Número regular (int): %d\n", regularNumber);
+    printf("Número grande (long int): %ld\n", bigNumber);
+ 
+    bigNumber = 2147483648; // Valor maior que o máximo de int
+    printf("Número grande atualizado (long int): %ld\n", bigNumber);
+ 
+    return 0;
+
+
+
+
+
 
 
 

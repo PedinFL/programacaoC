@@ -7,6 +7,7 @@ int populacao01, populacao02, pontos01, pontos02;
 float area01, area02, pib01, pib02;
 
 float densidade01, densidade02, per_capita01, per_capita02;
+// float super_poder01, super_poder02;                                  //Será feito no futuro
 //float propriedades01, propriedades02, propriedades03, propriedades04;
 
 
@@ -16,10 +17,10 @@ float densidade01, densidade02, per_capita01, per_capita02;
     printf("Insira os dados da primeira carta!\n");
 
     printf("Digite o estado: ");
-    scanf(" %s", &estado01);
+    scanf(" %s", estado01);
     
     printf("Digite a cidade: ");
-    scanf(" %s", &cidade01);
+    scanf(" %s", cidade01);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao01);
@@ -44,10 +45,10 @@ float densidade01, densidade02, per_capita01, per_capita02;
     printf("Insira os dados da segunda carta!\n");
 
     printf("Digite o estado: ");
-    scanf(" %s", &estado02);
+    scanf(" %s", estado02);
 
     printf("Digite a cidade: ");
-    scanf(" %s", &cidade02);
+    scanf(" %s", cidade02);
 
     printf("Digite a população da cidade: ");
     scanf("%d", &populacao02);
